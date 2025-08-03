@@ -1,0 +1,35 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="[Your Name]">
+    <title>"Bear, Ninja, Hunter Game"</title>
+</head>
+<body>
+    <p id="demo">Replace this content with the calculated sum</p>
+    <p id="computer">Replace this content with the calculated sum</p>
+    <script>
+  let uname = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started: ');
+  let amessage = `Hi: ${uname} Let's Play!'`;
+  alert(amessage);
+      let player = prompt('Who are you: Bear, Ninja, or Hunter? ');
+      //console.log(amessage + ' this is an example of a hardcoded text string concatenated after a variable.');
+        let demo = `${uname}, you picked ${player} !`
+        let computer = 'The computer picked Bear!'; // This could be randomized later 
+        document.getElementById('demo').innerHTML = demo
+        document.getElementById('computer').innerHTML = computer;
+        console.log(demo); 
+        console.log(computer); 
+      //console.log(`${variable}, Another text string ` + anotherVariable + '');
+    </script>
+
+
+    <script>
+    //document.getElementById("demo").innerHTML = 3 + 8;
+    //alert(8 + 3);
+    </script>
+
+</body>
+</html>
